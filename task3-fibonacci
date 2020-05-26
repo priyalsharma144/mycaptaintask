@@ -1,0 +1,25 @@
+nthele=int(input("enter term no"))
+n2=0
+n1=1
+nt=1
+c=0
+while c<nthele:
+    if c==0:
+        print(n2)
+        print(n1)
+        
+    else: 
+        nt=n1+n2
+        n2=n1
+        n1=nt
+        print(nt)
+    c=c+1
+        
+    output:-
+    enter term no 5
+0
+1
+1
+2
+3
+5
