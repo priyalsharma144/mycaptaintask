@@ -1,0 +1,13 @@
+string=input("enter the string to be checked:")
+freq={}
+def most_freq(string):
+    for i in string:
+        if i in freq:
+            freq[i]+=1
+        else:freq[i]=1
+most_freq(string)
+print(freq)
+
+output:-
+enter the string to be checked:mississippi
+{'m': 1, 'i': 4, 's': 4, 'p': 2}
